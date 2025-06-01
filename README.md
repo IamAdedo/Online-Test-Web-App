@@ -126,3 +126,65 @@ online-examination-system/
 ├── package.json             # Project dependencies
 └── README.md                # This file
 ```
+
+
+## Development Guidelines
+
+### Best Practices
+- Follow React hooks conventions
+- Use functional components
+- Implement proper error boundaries
+- Maintain consistent code style (ESLint + Prettier)
+- Write meaningful component and variable names
+- Document complex logic with comments
+
+### Testing
+Run tests with:
+```bash
+npm test
+# or
+yarn test
+```
+
+### Contributing
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Support
+
+For issues or questions, please:
+1. Check the existing issues
+2. If not found, open a new issue with detailed description
+3. Include steps to reproduce, expected behavior, and screenshots if applicable
+
+## Roadmap
+
+### Phase 1 (Current)
+- Core exam functionality
+- Basic user roles
+- Local network deployment
+
+### Phase 2 (Future)
+- Enhanced question types (MCQ, essay, etc.)
+- Advanced proctoring features
+- Offline synchronization
+- Plug-and-play deployment
+
+---
+
+**Note**: This system is designed for offline/local network use. For production environments with internet access, additional security measures would be required.
+
+
+
+## License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+MIT License is chosen because:
+- Permits free use, modification, and distribution
+- Allows for private/commercial use
+- Provides liability protection
+- Is permissive for educational/offline use cases
